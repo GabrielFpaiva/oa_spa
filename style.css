@@ -1772,7 +1772,7 @@ h4 {
   background: url(images/slider/1.jpg);
   display: block;
   padding: 315px 0 270px;
-  overflow: hidden;
+  overflow: visible;
   vertical-align: middle;
   margin-top:-156px;
 }
@@ -3434,14 +3434,15 @@ footer .footer-top .map-area address p {
 }
 .spa_inner_service_box .ico-ser .icons span {
   display: block;
-  width: 100px;
-  height: 100px;
-  line-height: 100%;
+  width: 120px; /* Tamanho aumentado */
+  height: 120px; /* Tamanho aumentado */
+  line-height: 120px; /* Para centralizar o conteúdo */
   border-radius: 100%;
-  border: 1px solid #e0e0e0;
+  border: 2px solid #e0e0e0; /* Espessura do contorno */
   position: relative;
   z-index: 999;
   transition: all 0.3s;
+  background-size: contain; /* Certifique-se de que os ícones sejam ajustados */
 }
 .spa_inner_service_box .ico-ser .icons span.ser1 {
   background: url(images/icons/2.png) no-repeat center;
@@ -3494,7 +3495,7 @@ footer .footer-top .map-area address p {
   bottom: 0;
 }
 .spa_inner_service_box:hover .ico-ser .icons span {
-  border: 1px solid #bea419;
+  border: 2px solid #bea419;
 }
 .spa_inner_service_box:hover .ico-ser .icons span.ser1 {
   background: url(images/icons/2h.png) no-repeat center;
@@ -3525,15 +3526,15 @@ footer .footer-top .map-area address p {
 }
 .spa_ser_inner_img{
 	float:left;
-	width:100px;
+	width: 120px;;
 }
-.spa_ser_inner_cont{
-	float:left;
-	width:calc(100% - 100px);
-	padding-left:20px;
+.spa_ser_inner_cont {
+  float: left;
+  width: calc(100% - 140px); /* Ajuste para dar mais espaço ao texto */
+  padding-left: 20px;
 }
-.spa_inner_service_box{
-	margin-top:50px;
+.spa_inner_service_box {
+  margin-top: 60px; /* Ajuste para evitar que os elementos fiquem apertados */
 }
 .spa_service_testimonial_section{
 	    padding: 100px 0 100px;
