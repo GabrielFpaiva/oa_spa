@@ -311,7 +311,6 @@ h4 {
 .section2 {
   display: block;
   padding: 100px 0;
-  margin: 100px;
 }
 
 .section3 {
@@ -1783,7 +1782,7 @@ h4 {
   top: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
 }
 .slider-area:before {
   content: '';
@@ -1792,7 +1791,7 @@ h4 {
   top: -100%;
   bottom: -100%;
   right: 36%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   transform: rotate(15deg);
 }
 .slider-area .content {
@@ -2324,85 +2323,89 @@ footer .footer-top .map-area address p {
   opacity: 0.5;
 }
 
+
 /*....................................
 5. Team area start here
 ....................................*/
-.team-area {
-  display: block;
-  margin-top: 80px;
+/* Ajusta a disposição para 4 cards por linha */
+.team-area .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Espaço entre os cards */
 }
-.team-area .team-list figure {
-  display: block;
-  border-radius: 100%;
-  width: 84%;
-  position: relative;
-  margin: 0 auto;
+
+/* Classe para os cards */
+.team-card {
+  flex: 1 1 calc(23% - 20px); /* Ajusta para 4 por linha */
+  max-width: calc(23% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Ajuste do tamanho da imagem (maior que o texto) */
+.team-card figure {
+  width: 230px; /* Aumentei a imagem */
+  height: 250px;
+  border-radius: 50%;
   overflow: hidden;
-  vertical-align: middle;
-}
-.team-area .team-list figure:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 50%;
-  bottom: 50%;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 100%;
-  transition: all 0.3s;
-}
-.team-area .team-list figure img {
-  width: 100%;
-  display: block;
-  border-radius: 100%;
-}
-.team-area .team-list:hover figure:after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.team-area .team-list .content {
-  display: block;
-  background: #fff;
-  padding: 45px;
+  margin-bottom: -20px; /* Faz a imagem "invadir" o card */
   position: relative;
-  margin-top: -20px;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
-.team-area .team-list .content:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: -20px;
-  z-index: 999;
-  width: 1px;
-  height: 40px;
-  background: #bea419;
-  margin: 0 auto;
+
+/* Efeito de profundidade e layout do card do texto */
+.team-card .content {
+  background: #fff;
+  padding: 15px 20px; /* Reduzi o padding */
+  position: relative;
+  min-width: fit-content;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); /* Sombra aprimorada */
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.team-area .team-list .content span {
+
+/* Hover: elevação e destaque */
+.team-card:hover {
+  transform: translateY(-10px);
+}
+
+.team-card:hover .content {
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.25);
+}
+
+.team-card:hover figure {
+  transform: scale(1.1);
+}
+
+/* Ajuste do texto */
+.team-card .content span {
   color: #bea419;
   font-family: "Montez", cursive;
-  display: block;
-  margin-bottom: 15px;
-  font-size: 28px;
-}
-.team-area .team-list .content h3 {
   font-size: 22px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0;
   display: block;
 }
-.team-area .team-list .content h3 a {
-  color: #212121;
+
+.team-card .content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 5px 0;
 }
-.team-area .team-list .content h3 a:hover {
+
+.team-card .content h3 a {
+  color: #212121;
+  transition: color 0.3s ease;
+}
+
+.team-card .content h3 a:hover {
   color: #bea419;
 }
+
 
 /*....................................
 8. Price list area start here
