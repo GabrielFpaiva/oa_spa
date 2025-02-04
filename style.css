@@ -321,12 +321,12 @@ h4 {
 .section-heading-one {
   display: block;
   text-align: center;
-  margin: 0 0 40px;
+  margin: 0 0 20px;
 }
 .section-heading-one span {
   font-family: "Montez", cursive;
   color: #bea419;
-  font-size: 36px;
+  font-size: 60px;
   margin: 0 0 20px;
   display: block;
 }
@@ -2532,217 +2532,68 @@ footer .footer-top .map-area address p {
 /*....................................
 12. Services area start here
 ....................................*/
+
 .services-area {
-  display: block;
-  margin: 0 0 -150px;
-  position: relative;
-  z-index: 999;
+  padding: 60px 0;
+  background: #f9f9f9;
 }
-.services-area .slider-list {
-  position: relative;
-  display: block;
-  width: 100%;
+
+.service-box {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
-.services-area .slider-list .left-img .top-img img {
-  width: 100%;
+
+.service-icon {
+  font-size: 40px;
+  color: #bea419;
+  margin-bottom: 20px;
 }
-.services-area .slider-list .left-img .bott-img {
-  padding-left: 100px;
+
+.service-box:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
 }
-.services-area .slider-list .left-img .bott-img img {
-  width: 100%;
+.service-box .icon {
+  margin-bottom: 15px;
 }
-.services-area .slider-list .rigth-img {
-  display: block;
-  margin-top: 100px;
-}
-.services-area .slider-list .rigth-img img {
-  width: 100%;
-}
-.services-area .slider-list .content-services {
-  position: absolute;
-  top: 150px;
-  width: 430px;
-  height: auto;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  background: #fff;
-  padding: 65px 60px;
-  display: inline-block;
-}
-.services-area .slider-list .content-services .content-list-left {
-  position: relative;
-  display: block;
-}
-.services-area .slider-list .content-services .content-list-left:after {
-  content: '';
-  position: absolute;
-  left: -95px;
-  width: 70px;
-  height: 1px;
-  background: #bea419;
-  right: 0;
-  top: 50px;
-}
-.services-area .slider-list .content-services .content-list-left .ico-ser {
-  float: left;
-  display: inline-block;
-  margin-right: 30px;
-}
-.services-area .slider-list .content-services .content-list-left .ico-ser .icons {
-  position: relative;
-}
-.services-area .slider-list .content-services .content-list-left .ico-ser .icons:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 50%;
-  bottom: 50%;
-  background: #bea419;
-  border-radius: 100%;
-  transition: all 0.3s;
-}
-.services-area .slider-list .content-services .content-list-left .ico-ser .icons span {
-  display: block;
-  width: 100px;
-  height: 100px;
-  line-height: 100%;
-  border-radius: 100%;
-  border: 1px solid #e0e0e0;
-  position: relative;
-  z-index: 999;
-  transition: all 0.3s;
-}
-.services-area .slider-list .content-services .content-list-left .ico-ser .icons span.ser1 {
-  background: url(images/icons/2.png) no-repeat center;
-  transition: all 0.3s;
-}
-.services-area .slider-list .content-services .content-list-left .ico-ser .icons span.ser2 {
-  background: url(images/icons/3.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-left .ico-ser .icons span.ser3 {
-  background: url(images/icons/4.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-left .con-ser {
-  display: table;
-}
-.services-area .slider-list .content-services .content-list-left .con-ser h4 {
+.service-box h4 {
   font-size: 22px;
-  font-family: "Raleway", sans-serif;
-  color: #212121;
-  font-weight: 600;
-  margin: 0 0 10px;
-  text-transform: capitalize;
+  color: #333;
+  margin-bottom: 10px;
 }
-.services-area .slider-list .content-services .content-list-left .con-ser p {
-  margin: 0 0 5px;
+.service-box p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
 }
-.services-area .slider-list .content-services .content-list-left:hover .ico-ser .icons:after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.services-area .slider-list .content-services .content-list-left:hover .ico-ser .icons span {
-  border: 1px solid #bea419;
-}
-.services-area .slider-list .content-services .content-list-left:hover .ico-ser .icons span.ser1 {
-  background: url(images/icons/2h.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-left:hover .ico-ser .icons span.ser2 {
-  background: url(images/icons/3h.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-left:hover .ico-ser .icons span.ser3 {
-  background: url(images/icons/4h.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-right {
-  position: relative;
+.service-box .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #bea419;
   display: block;
-  margin: 50px 0;
+  margin-bottom: 15px;
 }
-.services-area .slider-list .content-services .content-list-right:after {
-  content: '';
-  position: absolute;
-  right: -95px;
-  width: 70px;
-  height: 1px;
-  background: #bea419;
-  top: 50px;
-}
-.services-area .slider-list .content-services .content-list-right .ico-ser {
-  float: right;
+.btn2 {
   display: inline-block;
-  margin-left: 30px;
-}
-.services-area .slider-list .content-services .content-list-right .ico-ser .icons {
-  position: relative;
-}
-.services-area .slider-list .content-services .content-list-right .ico-ser .icons:after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  top: 50%;
-  bottom: 50%;
+  padding: 10px 20px;
   background: #bea419;
-  border-radius: 100%;
-  transition: all 0.3s;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
-.services-area .slider-list .content-services .content-list-right .ico-ser .icons span {
-  display: block;
-  width: 100px;
-  height: 100px;
-  line-height: 100%;
-  border-radius: 100%;
-  border: 1px solid #e0e0e0;
-  position: relative;
-  z-index: 999;
-  transition: all 0.3s;
-}
-.services-area .slider-list .content-services .content-list-right .ico-ser .icons span.ser1 {
-  background: url(images/icons/2.png) no-repeat center;
-  transition: all 0.3s;
-}
-.services-area .slider-list .content-services .content-list-right .ico-ser .icons span.ser2 {
-  background: url(images/icons/3.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-right .ico-ser .icons span.ser3 {
-  background: url(images/icons/4.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-right .con-ser {
-  display: table;
-  text-align: right;
-}
-.services-area .slider-list .content-services .content-list-right .con-ser h4 {
-  font-size: 22px;
-  font-family: "Raleway", sans-serif;
-  color: #212121;
-  font-weight: 600;
-  margin: 0 0 10px;
-  text-transform: capitalize;
-}
-.services-area .slider-list .content-services .content-list-right .con-ser p {
-  margin: 0 0 5px;
-}
-.services-area .slider-list .content-services .content-list-right:hover .ico-ser .icons:after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.services-area .slider-list .content-services .content-list-right:hover .ico-ser .icons span {
-  border: 1px solid #bea419;
-}
-.services-area .slider-list .content-services .content-list-right:hover .ico-ser .icons span.ser1 {
-  background: url(images/icons/2h.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-right:hover .ico-ser .icons span.ser2 {
-  background: url(images/icons/3h.png) no-repeat center;
-}
-.services-area .slider-list .content-services .content-list-right:hover .ico-ser .icons span.ser3 {
-  background: url(images/icons/4h.png) no-repeat center;
+.btn2:hover {
+  background: #8e6b0a;
+  color: #FfFfFf;
 }
 
 /*....................................
