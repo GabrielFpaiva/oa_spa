@@ -325,7 +325,7 @@ h4 {
 }
 .section-heading-one span {
   font-family: "Montez", cursive;
-  color: #bea419;
+  color: #ce9803;
   font-size: 60px;
   margin: 0 0 20px;
   display: block;
@@ -347,7 +347,7 @@ h4 {
   left: 0;
   right: 0;
   width: 1px;
-  background: #bea419;
+  background: #ce9803;
   bottom: 0;
   height: 40px;
   margin: auto;
@@ -362,7 +362,7 @@ h4 {
 }
 .section-heading-two span {
   font-family: "Montez", cursive;
-  color: #bea419;
+  color: #ce9803;
   font-size: 36px;
   margin: 0 0 20px;
   display: block;
@@ -384,7 +384,7 @@ h4 {
   left: 0;
   right: 0;
   width: 1px;
-  background: #bea419;
+  background: #ce9803;
   bottom: 0;
   height: 40px;
   margin: auto;
@@ -409,7 +409,7 @@ h4 {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #bea419;
+  background: #ce9803;
   border-radius: 50px;
   transition: all 0.3s;
 }
@@ -444,7 +444,7 @@ h4 {
   padding-left: 5px;
 }
 .btn2:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 .btn2:hover:after {
   left: 100%;
@@ -490,7 +490,7 @@ h4 {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #bea419;
+  background: #ce9803;
 }
 
 .btn4 {
@@ -498,7 +498,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
-  color: #bea419;
+  color: #ce9803;
 }
 .btn4:after {
   content: '';
@@ -610,7 +610,7 @@ h4 {
   left: 0;
   right: 0;
   border-radius: 50px;
-  background: #bea419;
+  background: #ce9803;
   display: inline-block;
   line-height: 50px;
   width: 37%;
@@ -671,8 +671,8 @@ h4 {
   opacity: 1;
 }
 .services-area .owl-controls .owl-buttons div:hover {
-  background: #bea419;
-  border: 1px solid #bea419;
+  background: #ce9803;
+  border: 1px solid #ce9803;
   color: #fff;
 }
 .services-area .owl-controls .owl-buttons div.owl-prev {
@@ -713,8 +713,8 @@ h4 {
   opacity: 1;
 }
 .therapies-area .owl-controls .owl-buttons div:hover {
-  background: #bea419;
-  border: 1px solid #bea419;
+  background: #ce9803;
+  border: 1px solid #ce9803;
   color: #fff;
 }
 
@@ -732,7 +732,7 @@ h4 {
   border-radius: 50px;
   text-align: center;
   border: 1px solid #fff;
-  background: #bea419;
+  background: #ce9803;
   transition: all 0.3s;
   color: #fff;
   font-size: 18px;
@@ -771,8 +771,8 @@ h4 {
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
 }
 .product-area .owl-controls .owl-buttons div:hover {
-  background: #bea419;
-  border: 1px solid #bea419;
+  background: #ce9803;
+  border: 1px solid #ce9803;
   color: #fff;
 }
 .product-area .owl-controls .owl-buttons div.owl-prev {
@@ -1744,7 +1744,7 @@ h4 {
   text-transform: uppercase;
 }
 #sticky .main-menu nav ul li a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 #sticky .header-right {
   float: right;
@@ -1760,7 +1760,7 @@ h4 {
 #sticky .header-right .con-tc i {
   font-weight: 300;
   padding-right: 8px;
-  color: #bea419;
+  color: #ce9803;
 }
 /*....................................
 3. Slider area start here
@@ -1805,7 +1805,7 @@ h4 {
 .slider-area .content .tit {
   font-family: "Montez", cursive;
   font-size: 36px;
-  color: #bea419;
+  color: #ce9803;
   display: block;
   margin: 0 0 26px;
 }
@@ -1835,7 +1835,7 @@ h4 {
 4. About area start here
 ....................................*/
 .about-area .about-content .title {
-  color: #bea419;
+  color: #ce9803;
   font-family: "Montez", cursive;
   font-size: 36px;
   display: block;
@@ -1861,7 +1861,7 @@ h4 {
   top: 0;
   bottom: 0;
   width: 1px;
-  background: #bea419;
+  background: #ce9803;
 }
 .about-area .about-photo {
   display: block;
@@ -1879,7 +1879,7 @@ h4 {
   position: absolute;
   bottom: 70px;
   right: 0;
-  background: #bea419;
+  background: #ce9803;
   line-height: 50px;
   color: #fff;
   padding: 0 25px;
@@ -1906,7 +1906,7 @@ h4 {
   transform: scale(1);
 }
 .about-area .odd-box.box1 {
-  background: #bea419;
+  background: #ce9803;
 }
 .about-area .odd-box.box2 {
   background: #cbb647;
@@ -2033,7 +2033,7 @@ h4 {
   top: -20px;
   width: 1px;
   height: 40px;
-  background: #bea419;
+  background: #ce9803;
   margin: auto;
 }
 .blog-area .blog-list .content h4 {
@@ -2047,7 +2047,7 @@ h4 {
   color: #212121;
 }
 .blog-area .blog-list .content h4 a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 .blog-area .blog-list .content ul li {
   padding: 0 10px;
@@ -2136,7 +2136,7 @@ footer .footer-top .about-spa {
 }
 footer .footer-top .about-spa span {
   font-family: "Montez", cursive;
-  color: #bea419;
+  color: #ce9803;
   font-size: 36px;
   display: block;
   margin: 0 0 25px;
@@ -2164,7 +2164,7 @@ footer .footer-top .about-spa p:after {
   top: 0;
   bottom: 0;
   width: 1px;
-  background: #bea419;
+  background: #ce9803;
 }
 footer .footer-top .subs-box {
   display: block;
@@ -2199,11 +2199,11 @@ footer .footer-top .subs-box form button {
   padding: 0 20px;
   bottom: 0;
   right: 0;
-  color: #bea419;
+  color: #ce9803;
   transition: all 0.3s;
 }
 footer .footer-top .subs-box form button:hover {
-  background: #bea419;
+  background: #ce9803;
   color: #fff;
 }
 footer .footer-top .con-info ul li {
@@ -2214,7 +2214,7 @@ footer .footer-top .con-info ul li:last-child {
   padding: 0;
 }
 footer .footer-top .con-info ul li span {
-  color: #bea419;
+  color: #ce9803;
   display: inline-block;
   float: left;
   font-size: 24px;
@@ -2231,7 +2231,7 @@ footer .footer-top .con-info ul li p {
 }
 footer .footer-top .con-info ul li p strong {
   font-weight: 400;
-  color: #bea419;
+  color: #ce9803;
 }
 footer .footer-top .map-area {
   display: block;
@@ -2247,7 +2247,7 @@ footer .footer-top .map-area address {
   position: absolute;
   left: 0;
   top: 50%;
-  background: #bea419;
+  background: #ce9803;
   padding: 30px;
   display: inline-block;
   width: 40%;
@@ -2278,7 +2278,7 @@ footer .footer-top .map-area address p {
   z-index: 999;
 }
 .twitter-area .twitter-post {
-  background: #bea419;
+  background: #ce9803;
   display: block;
   position: relative;
   width: 100%;
@@ -2385,7 +2385,7 @@ footer .footer-top .map-area address p {
 
 /* Ajuste do texto */
 .team-card .content span {
-  color: #bea419;
+  color: #ce9803;
   font-family: "Montez", cursive;
   font-size: 22px;
   display: block;
@@ -2404,7 +2404,7 @@ footer .footer-top .map-area address p {
 }
 
 .team-card .content h3 a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 
 
@@ -2437,7 +2437,7 @@ footer .footer-top .map-area address p {
   right: 50%;
   top: 50%;
   bottom: 50%;
-  background: #bea419;
+  background: #ce9803;
   border-radius: 100%;
   transition: all 0.3s;
 }
@@ -2481,7 +2481,7 @@ footer .footer-top .map-area address p {
 }
 .price-table-area .price-list .price-plan .titl .tit {
   font-family: "Montez", cursive;
-  color: #bea419;
+  color: #ce9803;
   font-size: 28px;
   margin: 0 0 10px;
   display: block;
@@ -2503,7 +2503,7 @@ footer .footer-top .map-area address p {
   left: 0;
   right: 0;
   width: 1px;
-  background: #bea419;
+  background: #ce9803;
   bottom: 0;
   height: 30px;
   margin: auto;
@@ -2555,7 +2555,7 @@ footer .footer-top .map-area address p {
 
 .service-icon {
   font-size: 40px;
-  color: #bea419;
+  color: #ce9803;
   margin-bottom: 20px;
 }
 
@@ -2579,14 +2579,14 @@ footer .footer-top .map-area address p {
 .service-box .price {
   font-size: 18px;
   font-weight: bold;
-  color: #bea419;
+  color: #ce9803;
   display: block;
   margin-bottom: 15px;
 }
 .btn2 {
   display: inline-block;
   padding: 10px 20px;
-  background: #bea419;
+  background: #ce9803;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -2679,7 +2679,7 @@ footer .footer-top .map-area address p {
   letter-spacing: 1px;
 }
 .testimonial-area .testimonial-list .content a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 
 /*....................................
@@ -2762,11 +2762,11 @@ footer .footer-top .map-area address p {
   background: #fff;
 }
 .product-area .product-list .content .buttonlink a:hover {
-  background: #bea419;
+  background: #ce9803;
   color: #fff;
 }
 .product-area .product-list:hover .content .price {
-  background: #bea419;
+  background: #ce9803;
   color: #fff;
 }
 .product-area .product-list:hover .content p {
@@ -2827,7 +2827,7 @@ footer .footer-top .map-area address p {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #bea419;
+  background: #ce9803;
   opacity: 0;
   z-index: 99;
   transition: all 0.3s;
@@ -2897,20 +2897,20 @@ footer .footer-top .map-area address p {
 }
 .therapies-area .therapies {
   display: block;
-  background: #fff;
+  background: #fafafa;
   float: left;
   width: 100%;
   position: relative;
   z-index: 999;
   margin-bottom: -280px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.09);
 }
 .therapies-area .therapies .therrap-details {
   display: block;
   margin: 40px 0 40px 30px;
 }
 .therapies-area .therapies .therrap-details .title {
-  color: #bea419;
+  color: #ce9803;
   font-family: "Montez", cursive;
   font-size: 36px;
   display: block;
@@ -2936,7 +2936,7 @@ footer .footer-top .map-area address p {
   top: 0;
   bottom: 0;
   width: 1px;
-  background: #bea419;
+  background: #ce9803;
 }
 .therapies-area .therapies .therrap-details .desc p {
   margin: 0;
@@ -2958,24 +2958,24 @@ footer .footer-top .map-area address p {
 }
 .therapies-area .therapies .thera-slider .thera-list .price strong {
   font-size: 40px;
-  color: #bea419;
+  color: #ce9803;
   font-weight: 900;
 }
 .therapies-area .therapies .thera-slider .thera-list .price strong b {
   display: inline-block;
   font-weight: 300;
-  color: #bea419;
+  color: #ce9803;
 }
 .therapies-area .therapies .thera-slider .thera-list .price span {
   font-weight: 300;
   color: #212121;
 }
 .therapies-area .therapies .threapies-form {
-  background: #bea419;
+  background: #ce9803;
   display: block;
   height: 100%;
   position: relative;
-  padding: 60px 45px;
+  padding: 50px 30px;
   text-align: center;
 }
 .therapies-area .therapies .threapies-form .head-form {
@@ -3136,6 +3136,49 @@ footer .footer-top .map-area address p {
   margin-top: 22px;
 }
 
+.therapies-area .therapies .threapies-form form fieldset input,
+.therapies-area .therapies .threapies-form form fieldset textarea,
+.therapies-area .therapies .threapies-form form fieldset select {
+  color: #fafafa; /* Cor do texto */
+}
+
+.therapies-area .therapies .threapies-form form fieldset input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fafafa; /* Cor do placeholder */
+}
+.therapies-area .therapies .threapies-form form fieldset input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fafafa; /* Cor do placeholder */
+}
+.therapies-area .therapies .threapies-form form fieldset input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fafafa; /* Cor do placeholder */
+}
+.therapies-area .therapies .threapies-form form fieldset input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fafafa; /* Cor do placeholder */
+}
+
+.therapies-area .therapies .threapies-form form fieldset textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fafafa; /* Cor do placeholder */
+}
+.therapies-area .therapies .threapies-form form fieldset textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fafafa; /* Cor do placeholder */
+}
+.therapies-area .therapies .threapies-form form fieldset textarea:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fafafa; /* Cor do placeholder */
+}
+.therapies-area .therapies .threapies-form form fieldset textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fafafa; /* Cor do placeholder */
+}
+
+.therapies-area .therapies .threapies-form form fieldset select {
+  color: #fafafa; /* Cor do texto */
+}
 /*....................................
 12. Videos area start here
 ....................................*/
@@ -3174,12 +3217,12 @@ footer .footer-top .map-area address p {
   bottom: 0;
   height: 1px;
   width: 40px;
-  background: #bea419;
+  background: #ce9803;
   margin: auto;
   opacity: 0;
 }
 .videos-area .videos ul li.active a {
-  color: #bea419;
+  color: #ce9803;
 }
 .videos-area .videos ul li.active a:after {
   opacity: 1;
@@ -3212,7 +3255,7 @@ footer .footer-top .map-area address p {
   color: #212121;
 }
 .videos-area .videos .tab-content .tab-pane figure a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 /*-------------- Spa About css Start ---------------*/
 .spa_inner_page_header{
@@ -3239,7 +3282,7 @@ footer .footer-top .map-area address p {
   transition: all 0.5s;
 }
 .about-gallery .owl-controls .owl-buttons .owl-prev:hover {
-  background: #bea419;
+  background: #ce9803;
 }
 .about-gallery .owl-controls .owl-buttons .owl-next {
   position: absolute;
@@ -3256,7 +3299,7 @@ footer .footer-top .map-area address p {
   transition: all 0.5s;
 }
 .about-gallery .owl-controls .owl-buttons .owl-next:hover {
-  background: #bea419;
+  background: #ce9803;
 }
 .spa_about_team_section{
 	margin-top:0;
@@ -3283,7 +3326,7 @@ footer .footer-top .map-area address p {
   right: 50%;
   top: 50%;
   bottom: 50%;
-  background: #bea419;
+  background: #ce9803;
   border-radius: 100%;
   transition: all 0.3s;
 }
@@ -3350,7 +3393,7 @@ footer .footer-top .map-area address p {
   bottom: 0;
 }
 .spa_inner_service_box:hover .ico-ser .icons span {
-  border: 2px solid #bea419;
+  border: 2px solid #ce9803;
 }
 .spa_inner_service_box:hover .ico-ser .icons span.ser1 {
   background: url(images/icons/2h.png) no-repeat center;
@@ -3477,7 +3520,7 @@ footer .footer-top .map-area address p {
   transform: scale(1.1, 1.1);
 }
 .blog-area .blog-list:hover .content {
-  border: 1px solid #bea419;
+  border: 1px solid #ce9803;
   border-top: none;
 }
 .blog-area .load-btn a {
@@ -3505,7 +3548,7 @@ footer .footer-top .map-area address p {
   position: absolute;
   top: 30px;
   right: 30px;
-  background: #bea419;
+  background: #ce9803;
   width: 55px;
   height: 60px;
   line-height: 60px;
@@ -3546,7 +3589,7 @@ footer .footer-top .map-area address p {
   font-size: 16px;
 }
 .blog-area-page .blog-list .content a {
-  color: #bea419;
+  color: #ce9803;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -3561,7 +3604,7 @@ footer .footer-top .map-area address p {
   transform: scale(1.1, 1.1);
 }
 .blog-area-page .blog-list:hover .content {
-  border: 1px solid #bea419;
+  border: 1px solid #ce9803;
   border-top: none;
 }
 
@@ -3580,8 +3623,8 @@ footer .footer-top .map-area address p {
   padding: 4px 0;
 }
 .pagination ul li a.active {
-  background: #bea419;
-  border: 1px solid #bea419;
+  background: #ce9803;
+  border: 1px solid #ce9803;
   color: #fff;
 }
 .pagination ul li a:hover {
@@ -3639,7 +3682,7 @@ footer .footer-top .map-area address p {
   bottom: 0;
   height: 15px;
   width: 2px;
-  background: #bea419;
+  background: #ce9803;
 }
 .blog-details-area .content-area .post-date li:first-child:after {
   top: 8px;
@@ -3681,7 +3724,7 @@ footer .footer-top .map-area address p {
   border-bottom: none;
 }
 .blog-details-area .content-area .post-feature .content ul li i {
-  color: #bea419;
+  color: #ce9803;
   padding-right: 10px;
 }
 .blog-details-area .content-area .tags-share {
@@ -3793,7 +3836,7 @@ footer .footer-top .map-area address p {
   bottom: 0;
   height: 2px;
   width: 20%;
-  background: #bea419;
+  background: #ce9803;
 }
 .sidebar .search-area form {
   position: relative;
@@ -3832,7 +3875,7 @@ footer .footer-top .map-area address p {
   color: #212121;
 }
 .sidebar .recent-post .single-post .post-content h4 a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 .sidebar .recent-post .single-post .post-content ul li {
   color: #212121;
@@ -3858,7 +3901,7 @@ footer .footer-top .map-area address p {
   color: #212121;
 }
 .sidebar .latest-product .single-post .post-content h4 a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 .sidebar .latest-product .single-post .post-content strong {
   font-size: 15px;
@@ -3895,8 +3938,8 @@ footer .footer-top .map-area address p {
 }
 .sidebar .latest-product ul li .checkbox-custom:checked:before {
   content: '';
-  background: #bea419;
-  border: 1px solid #bea419;
+  background: #ce9803;
+  border: 1px solid #ce9803;
 }
 .sidebar .latest-product ul li p {
   margin: 0;
@@ -3918,7 +3961,7 @@ footer .footer-top .map-area address p {
   margin-top: 10px;
 }
 .sidebar .latest-product ul a:hover {
-  background: #bea419;
+  background: #ce9803;
 }
 .sidebar .author .author-content {
   text-align: center;
@@ -3947,7 +3990,7 @@ footer .footer-top .map-area address p {
   font-size: 16px;
 }
 .sidebar .author .author-content ul li a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 .sidebar .instagram ul {
   display: block;
@@ -3969,7 +4012,7 @@ footer .footer-top .map-area address p {
   top: 0;
   bottom: 0;
   opacity: 0;
-  border: 4px solid #bea419;
+  border: 4px solid #ce9803;
   transition: all 0.5s;
 }
 .sidebar .instagram ul li a:before {
@@ -3979,7 +4022,7 @@ footer .footer-top .map-area address p {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #bea419;
+  background: #ce9803;
   opacity: 0;
   transition: all 0.5s;
 }
@@ -4024,7 +4067,7 @@ footer .footer-top .map-area address p {
   color: #686868;
 }
 .sidebar .price-range .ui-widget-content .ui-state-default {
-  background: #bea419;
+  background: #ce9803;
   border-radius: 100%;
   cursor: pointer;
   margin-top: -2px;
@@ -4034,7 +4077,7 @@ footer .footer-top .map-area address p {
 }
 .sidebar .price-range .ui-widget-content .ui-state-default:last-child {
   background: #fff;
-  border: 2px solid #bea419;
+  border: 2px solid #ce9803;
 }
 .sidebar .price-range .ui-widget-header {
   background: #dcdcdc;
@@ -4064,7 +4107,7 @@ footer .footer-top .map-area address p {
   margin-top: 20px;
 }
 .sidebar .price-range a:hover {
-  background: #bea419;
+  background: #ce9803;
 }
 .hundred_pixel_margin{
 	margin-top:100px;
@@ -4091,7 +4134,7 @@ footer .footer-top .map-area address p {
   line-height: 55px;
   padding: 0 28px;
   z-index: 2;
-  background: #bea419;
+  background: #ce9803;
 }
 .contact-area .map-area .go-map:hover {
   color: #212121;
@@ -4100,7 +4143,7 @@ footer .footer-top .map-area address p {
       content: '';
     position: absolute;
     border-bottom: 23px solid transparent;
-    border-left: 25px solid #bea419;
+    border-left: 25px solid #ce9803;
     right: 0;
     bottom: -23px;
 }
@@ -4128,7 +4171,7 @@ footer .footer-top .map-area address p {
   height: 108px;
   background: #fff;
   font-size: 28px;
-  color: #bea419;
+  color: #ce9803;
   border-radius: 100%;
   line-height: 94px;
   transition: all 0.5s;
@@ -4139,7 +4182,7 @@ footer .footer-top .map-area address p {
   font-size: 16px;
 }
 .contact-area .contact-info:hover span {
-  background: #bea419;
+  background: #ce9803;
   color: #fff;
 }
 .contact-area .form-area form fieldset {
@@ -4157,10 +4200,10 @@ footer .footer-top .map-area address p {
   transition: all 0.5s;
 }
 .contact-area .form-area form fieldset .feld input:focus {
-  border: 1px solid #bea419;
+  border: 1px solid #ce9803;
 }
 .contact-area .form-area form fieldset .feld input:focus + span {
-  color: #bea419;
+  color: #ce9803;
 }
 .contact-area .form-area form fieldset .feld input::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -4205,10 +4248,10 @@ footer .footer-top .map-area address p {
   transition: all 0.5s;
 }
 .contact-area .form-area form fieldset .feld textarea:focus {
-  border: 1px solid #bea419;
+  border: 1px solid #ce9803;
 }
 .contact-area .form-area form fieldset .feld textarea:focus + span {
-  color: #bea419;
+  color: #ce9803;
 }
 .contact-area .form-area form fieldset .feld textarea::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -4304,7 +4347,7 @@ footer .footer-top .map-area address p {
   transition: all 0.5s;
 }
 .gallery-area .gallery-list figure a span:hover {
-  background: #bea419;
+  background: #ce9803;
 }
 .gallery-area .gallery-list figure a span i {
   transform: rotate(-45deg);
@@ -4344,10 +4387,10 @@ footer .footer-top .map-area address p {
   margin-right: 5px;
 }
 .gallery-area .portfolio-nav ul li.is-checked {
-  color: #bea419;
+  color: #ce9803;
 }
 .gallery-area .portfolio-nav ul li.is-checked span {
-  background: #bea419;
+  background: #ce9803;
 }
 .gallery-area .spa_gallery_filter figure a:after{
 	background:transparent;
@@ -4530,16 +4573,16 @@ footer .footer-top .map-area address p {
 }
 .shop-page-area .item .shop-list .content ul li {
   padding: 0;
-  color: #bea419;
+  color: #ce9803;
 }
 .shop-page-area .item .shop-list .content ul li:nth-child(1) {
-  color: #bea419;
+  color: #ce9803;
 }
 .shop-page-area .item .shop-list .content ul li:nth-child(2) {
-  color: #bea419;
+  color: #ce9803;
 }
 .shop-page-area .item .shop-list .content ul li:nth-child(3) {
-  color: #bea419;
+  color: #ce9803;
 }
 .shop-page-area .item .shop-list .content h4 {
   font-family: "Raleway", sans-serif;
@@ -4563,7 +4606,7 @@ footer .footer-top .map-area address p {
 .shop-page-area .item .shop-list .content .price strong {
   font-size: 20px;
   font-weight: 600;
-  color: #bea419;
+  color: #ce9803;
   display: inline-block;
 }
 .shop-page-area .item .shop-list .content a {
@@ -4629,16 +4672,16 @@ footer .footer-top .map-area address p {
 }
 .shop-page-area .item.list-item .shop-list .content ul li {
   padding: 0;
-  color: #bea419;
+  color: #ce9803;
 }
 .shop-page-area .item.list-item .shop-list .content ul li:nth-child(1) {
-  color: #bea419;
+  color: #ce9803;
 }
 .shop-page-area .item.list-item .shop-list .content ul li:nth-child(2) {
-  color: #bea419;
+  color: #ce9803;
 }
 .shop-page-area .item.list-item .shop-list .content ul li:nth-child(3) {
-  color: #bea419;
+  color: #ce9803;
 }
 .shop-page-area .item.list-item .shop-list .content h4 {
   font-family: "Raleway", sans-serif;
@@ -4662,7 +4705,7 @@ footer .footer-top .map-area address p {
 .shop-page-area .item.list-item .shop-list .content .price strong {
   font-size: 20px;
   font-weight: 600;
-  color: #bea419;
+  color: #ce9803;
   display: inline-block;
 }
 .shop-page-area .item.list-item .shop-list .content p {
@@ -4770,7 +4813,7 @@ footer .footer-top .map-area address p {
   color: #797979;
 }
 .product-details .product-size ul li a:hover {
-  color: #bea419;
+  color: #ce9803;
 }
 .product-details .product-discription .heading .header h2 {
   font-family: "Raleway", sans-serif;
@@ -4825,7 +4868,7 @@ footer .footer-top .map-area address p {
   line-height: 23px;
 }
 .product-details .product-discription .heading .silder-control a:hover {
-  background: #bea419;
+  background: #ce9803;
   color: #fff;
 }
 .product-details .product-discription .panel-nav-tabs .panel-heading {
@@ -4837,7 +4880,7 @@ footer .footer-top .map-area address p {
   padding: 15px 15px;
 }
 .product-details .product-discription .panel-nav-tabs .panel-heading ul li.active a {
-  color: #bea419;
+  color: #ce9803;
 }
 .product-details .product-discription .panel-nav-tabs .panel-heading ul li.active:after {
   content: '';
@@ -4845,7 +4888,7 @@ footer .footer-top .map-area address p {
   right: 0;
   left: 0;
   height: 3px;
-  background: #bea419;
+  background: #ce9803;
   bottom: -2px;
 }
 .product-details .product-discription .panel-nav-tabs .panel-heading ul li:before {
@@ -5027,7 +5070,7 @@ footer .footer-top .map-area address p {
 	top:150%;
 	left:0;
 	width:140px;
-	border-top:3px solid #bea419;
+	border-top:3px solid #ce9803;
 	border-radius:3px;
 	background-color:#ffffff;
 	opacity:0;
@@ -5049,7 +5092,7 @@ footer .footer-top .map-area address p {
 	font-size:16px;
 }
 .dropdown .dropdown-content a:hover{
-	background:#bea419;
+	background:#ce9803;
 	color:#ffffff !important;
 	width:100%;
 }
