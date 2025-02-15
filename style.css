@@ -32,6 +32,7 @@ body {
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
+  overflow-x: hidden;
 }
 /*-- Preloader css start --*/
 #preloader {
@@ -59,6 +60,8 @@ body {
     -o-transform: translate(-50%,-50%);
 }
 #status img {
+  max-width: 100%;
+  height: auto;
 }
 /* ....................................
 1.1 Reset CSS 
@@ -326,7 +329,7 @@ h4 {
 .section-heading-one span {
   font-family: "Poiret One";
   color: #ce9803;
-  font-size: 60px;
+  font-size: 40px;
   margin: 0 0 20px;
   display: block;
 }
@@ -1837,7 +1840,7 @@ h4 {
 .about-area .about-content .title {
   color: #ce9803;
   font-family: "Poiret One";
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   margin: 10px 0 40px;
   flex-direction: column;
@@ -1853,7 +1856,7 @@ h4 {
 .about-area .about-content .desc {
   display: block;
   position: relative;
-  margin: 40px 0 0 10px;
+  margin: 40px 0 50px 10px;
   padding: 0 0 0 15px;
 }
 .about-area .about-content .desc:after {
@@ -1868,7 +1871,7 @@ h4 {
 .about-area .about-photo {
   display: block;
   margin: 0 0 10px;
-  padding-top: 200px;
+  padding-top: 20px;
 }
 .about-area .about-photo figure {
   position: relative;
@@ -2422,7 +2425,6 @@ footer .footer-top .map-area address p {
   .team-card {
     flex: 1 1 100%;
     max-width: 100%;
-    margin-bottom: 20px; /* Espaço entre os cards */
   }
 
   .team-card figure {

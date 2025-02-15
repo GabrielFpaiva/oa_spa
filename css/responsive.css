@@ -70,7 +70,8 @@
 	.services-area{margin: 0 0 75px;}
 	.testimonial-area{padding: 75px 0;}
 	.about-area .about-photo{margin: 0 0 75px;}
-	.gallery-area{margin-top: 265px;}
+	.gallery-area{margin-top: 26px;
+	margin-bottom: 20px;}
 	.therapies-area .therapies figure{margin: 0 0 30px;}
 	.videos-area .videos .tab-content .tab-pane figure a{width: 100px;height: 100px;line-height: 100px;font-size: 30px;top: 32%;}
 	.videos-area .videos ul li a{font-size: 14px;padding: 0 5px 15px}
