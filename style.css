@@ -26,6 +26,8 @@
 ....................................*/
 html,
 body {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   color: #797979;
   font-family: "Lato", sans-serif;
@@ -1662,7 +1664,6 @@ h4 {
   right: 0;
   width: 100%;
   display: block;
-  border-bottom: 1px solid #474747;
 }
 #sticky .logo-area a {
   line-height: 150px;
@@ -5121,4 +5122,70 @@ footer .footer-top .map-area address p {
 	background:#ce9803;
 	color:#ffffff !important;
 	width:100%;
+}
+
+/* Estilos da seção de vídeo */
+.video {
+  background-color: #fafafa; /* Cor de fundo */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.video h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.phone-mockup {
+  width: 300px;
+  height: 600px;
+  background-color: #000;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto; /* Centraliza o mockup */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-screen {
+  width: 90%;
+  height: 95%;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.phone-screen video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.phone-notch {
+  width: 60%;
+  height: 20px;
+  background-color: #000;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .video h1 {
+      font-size: 2rem;
+  }
+
+  .phone-mockup {
+      width: 250px;
+      height: 500px;
+  }
 }
