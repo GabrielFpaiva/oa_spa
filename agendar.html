@@ -7,7 +7,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16886430106">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16886430106"></script>
+
+        <script>
+        function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+            window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-16886430106/u9f9CMWRo6EaEJrzifQ-',
+            'event_callback': callback
+        });
+        return false;
+        }
+        </script>
+
         </script>
         <script>
         window.dataLayer = window.dataLayer || [];
@@ -218,7 +234,7 @@
                                             </select>
                                         </fieldset>
                                         <fieldset><textarea id="message" placeholder="Mensagem"></textarea></fieldset>
-                                        <button type="submit" class="btn3"><span>Agendar</span></button>
+                                        <button type="submit" class="btn3" onclick="gtag_report_conversion()"><span>Agendar</span></button>
                                     </form>
                                 </div>
                             </div>
